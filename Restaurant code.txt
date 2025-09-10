@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taste & Spice Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .hero {
+      background: url("https://source.unsplash.com/1200x400/?restaurant,food") no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px black;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      background: #fafafa;
+    }
+    .menu-item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍴 Taste & Spice Restaurant</h1>
+    <p>Delicious food made with love</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    Welcome to Taste & Spice
+  </div>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/400x300/?pizza" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Classic cheese pizza with fresh mozzarella.</p>
+        <p><strong>₹299</strong></p>
+      </div>
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/400x300/?burger" alt="Burger">
+        <h3>Veggie Burger</h3>
+        <p>Healthy and tasty veggie-packed burger.</p>
+        <p><strong>₹199</strong></p>
+      </div>
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/400x300/?pasta" alt="Pasta">
+        <h3>Italian Pasta</h3>
+        <p>Creamy pasta with fresh herbs and cheese.</p>
+        <p><strong>₹249</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At Taste & Spice, we believe food is an art. 
+      We bring authentic flavors with fresh ingredients cooked to perfection. 
+      Whether it’s a family dinner or a quick bite, we serve happiness on every plate.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Address: 123 Food Street, Hyderabad, India</p>
+    <p>📞 Phone: +91 98765 43210</p>
+    <p>📧 Email: info@tasteandspice.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Taste & Spice Restaurant. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
